@@ -15,9 +15,8 @@ class InputBar extends React.Component {
 
     componentDidMount() {
         const cookieText = this.props.getCookie("ReduxCookieTest");
-        this.setState({
-            'text': cookieText
-        });
+        this.props.setInputAction(cookieText);
+        console.log('componentDidMount', cookieText);
     }
 
     onTextInput(event) {
