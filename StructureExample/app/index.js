@@ -1,0 +1,21 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import variable1 from './Variable1';
+import {variable2, variable3} from './Variable2';
+import variable4 from './Variable4';
+import Part1 from './Part1';
+import { Part2, Part3 } from './Part2';
+import Part4 from './Part4';
+import Part5 from './Part5/Part5';
+import { Part6 } from './Part6';
+
+ReactDOM.render(<Part1 />, document.getElementById('part1'));
+ReactDOM.render(<Part2 />, document.getElementById('part2'));
+ReactDOM.render(<Part3 />, document.getElementById('part3'));
+ReactDOM.render(<Part4 />, document.getElementById('part4'));
+ReactDOM.render(<Part5 />, document.getElementById('part5'));
+ReactDOM.render(<Part6 />, document.getElementById('part6'));
+ReactDOM.render(variable1.content, document.getElementById('variable1'));
+ReactDOM.render(variable2.content, document.getElementById('variable2'));
+ReactDOM.render(variable3.content, document.getElementById('variable3'));
+ReactDOM.render(variable4.content, document.getElementById('variable4'));

@@ -1,0 +1,10 @@
+/*! CSS Used from: Embedded */
+#uploadedFile{display:inline;width:20%;margin:0;font-family:inherit;font-size:inherit;line-height:inherit;overflow:visible;-webkit-box-sizing:border-box;box-sizing:border-box;}
+/*! CSS Used from: Embedded */
+*,*::before,*::after{-webkit-box-sizing:border-box;box-sizing:border-box;}
+input{margin:0;font-family:inherit;font-size:inherit;line-height:inherit;}
+input{overflow:visible;}
+.form-control-file{display:block;width:100%;}
+@media print{
+*,*::before,*::after{text-shadow:none!important;-webkit-box-shadow:none!important;box-shadow:none!important;}
+}
